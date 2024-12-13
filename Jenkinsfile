@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: '<URL-repository-GitHub>', branch: 'main'
+                git url: 'https://github.com/damvantu2004/BaiTapLonWeb1.git', branch: 'master'
             }
         }
         stage('Build') {
